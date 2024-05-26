@@ -1,0 +1,46 @@
+- The data generated per day is 328.77 million terabytes is equall to 120 zettabytes.
+- how much data is created every day per person ?
+       with around 5.35 billion internet users worldwide , each person can potentially generated approximately 15.87TB of day daily.
+
+These terms are often used by data storage providers to describe their tiered storage plans. 
+The terms may have originated from how data was historically stored, with hot data being stored close to the heat of spinning drives and CPUs,
+and cold data being stored on drives or tape away from the warmer data center. 
+
+-  hot data
+       hot data is data that is frequently accessed or in high demand.
+       Hot data is typically stored on faster storage, such as solid state disks.
+       As hot data is accessed less frequently, it can be dynamically moved to slower storage.
+
+-  cold data 
+       cold data is data that is rarely accessed.
+       cold data is stored on slower, less expensive storage, such as hard drives, optical discs, tapes, or cloud storage.
+
+Information stored in data warehouses is often used for analytics. Hot archival makes this information available instantly. 
+Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be accessed often. This type of archival is typically 
+used for long-term backups and archiving purposes.
+
+Speed is the most important factor to consider when evaluating archival options. Every company is different, so there is no right answer. Ideally,
+all three should be used, it’s just a matter of defining how much of which. Below are additional factors to consider:
+
+Hot Storage: Hot archival is the short-term or working memory, and it contains active files that are still being used. Hot data archival is best
+used when an application requires fast access to the data—for example, online transaction processing (OLTP). An OLTP system must process 
+transactions in real time. Hot archival makes this possible. Another example is a data warehouse. These data stores must process large queries.
+Information stored in data warehouses is often used for analytics. Hot archival makes this information available instantly.
+
+Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be accessed often. This type of archival is typically
+used for long-term backups and archiving purposes. 
+
+The most common use case for cold data archival is to provide secondary or backup copies of hot (or warm) data. Cold archival is also ideal for 
+organizations with strict compliance needs. Some companies may benefit from using cold archival for offsite backups. Additional scenarios include:
+
+Offline backups of data from a live application or operating system. 
+Archive storage for data that has been migrated to an online archiving solution but needs to be retrieved offline occasionally 
+(e.g., regulatory compliance). 
+Data retention policies where an organization must retain all records for a given amount of time before they can be deleted. 
+Legal or forensic information.
+Warm Storage: Warm archival is a mix between cold and hot archival because it can be used as either one depending on your needs and preferences 
+at any given time. This type of archival provides a good compromise between the two options that can be useful in many situations.
+
+
+
+
