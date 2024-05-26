@@ -1,10 +1,12 @@
 - The data generated per day is 328.77 million terabytes is equall to 120 zettabytes.
 - how much data is created every day per person ?
-       with around 5.35 billion internet users worldwide , each person can potentially generated approximately 15.87TB of day daily.
+       with around 5.35 billion internet users worldwide , each person can potentially generated 
+       approximately 15.87TB of day daily.
 
 These terms are often used by data storage providers to describe their tiered storage plans. 
-The terms may have originated from how data was historically stored, with hot data being stored close to the heat of spinning drives and CPUs,
-and cold data being stored on drives or tape away from the warmer data center. 
+The terms may have originated from how data was historically stored, with hot data being stored 
+close to the heat of spinning drives and CPUs, and cold data being stored on drives or tape away 
+from the warmer data center. 
 
 -  hot data
        hot data is data that is frequently accessed or in high demand.
@@ -13,34 +15,170 @@ and cold data being stored on drives or tape away from the warmer data center.
 
 -  cold data 
        cold data is data that is rarely accessed.
-       cold data is stored on slower, less expensive storage, such as hard drives, optical discs, tapes, or cloud storage.
+       cold data is stored on slower, less expensive storage, such as hard drives, optical discs,
+       tapes, or cloud storage.
 
-Information stored in data warehouses is often used for analytics. Hot archival makes this information available instantly. 
-Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be accessed often. This type of archival is typically 
+Information stored in data warehouses is often used for analytics. Hot archival makes this
+       information available instantly. 
+Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be
+       accessed often. This type of archival is typically 
 used for long-term backups and archiving purposes.
 
-Speed is the most important factor to consider when evaluating archival options. Every company is different, so there is no right answer. Ideally,
-all three should be used, it’s just a matter of defining how much of which. Below are additional factors to consider:
+Speed is the most important factor to consider when evaluating archival options. 
+    Every company is different, so there is no right answer. Ideally,
+all three should be used, it’s just a matter of defining how much of which. Below are additional
+   factors to consider:
 
-Hot Storage: Hot archival is the short-term or working memory, and it contains active files that are still being used. Hot data archival is best
-used when an application requires fast access to the data—for example, online transaction processing (OLTP). An OLTP system must process 
-transactions in real time. Hot archival makes this possible. Another example is a data warehouse. These data stores must process large queries.
-Information stored in data warehouses is often used for analytics. Hot archival makes this information available instantly.
+Hot Storage: Hot archival is the short-term or working memory, and it contains active files that 
+are still being used. Hot data archival is best used when an application requires fast access to 
+the data—for example, online transaction processing (OLTP). An OLTP system must process 
+transactions in real time. Hot archival makes this possible. Another example is a data warehouse. 
+These data stores must process large queries. Information stored in data warehouses is often used 
+for analytics. Hot archival makes this information available instantly.
 
-Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be accessed often. This type of archival is typically
-used for long-term backups and archiving purposes. 
+Cold Storage: Cold archival is the long-term archival of data, and it is not intended to be 
+accessed often. This type of archival is typically used for long-term backups and archiving 
+purposes. 
 
-The most common use case for cold data archival is to provide secondary or backup copies of hot (or warm) data. Cold archival is also ideal for 
-organizations with strict compliance needs. Some companies may benefit from using cold archival for offsite backups. Additional scenarios include:
+The most common use case for cold data archival is to provide secondary or backup copies of 
+hot (or warm) data. Cold archival is also ideal for organizations with strict compliance needs. 
+Some companies may benefit from using cold archival for offsite backups. 
+Additional scenarios include:
 
 Offline backups of data from a live application or operating system. 
-Archive storage for data that has been migrated to an online archiving solution but needs to be retrieved offline occasionally 
-(e.g., regulatory compliance). 
-Data retention policies where an organization must retain all records for a given amount of time before they can be deleted. 
+Archive storage for data that has been migrated to an online archiving solution but needs to be 
+retrieved offline occasionally (e.g., regulatory compliance). 
+Data retention policies where an organization must retain all records for a given amount of time 
+before they can be deleted. 
 Legal or forensic information.
-Warm Storage: Warm archival is a mix between cold and hot archival because it can be used as either one depending on your needs and preferences 
-at any given time. This type of archival provides a good compromise between the two options that can be useful in many situations.
+Warm Storage: Warm archival is a mix between cold and hot archival because it can be used as 
+either one depending on your needs and preferences at any given time. This type of archival
+provides a good compromise between the two options that can be useful in many situations.
 
+==================================================================================================
+
+
+Primary Memory
+   Primary storage or memory is also known as the main memory, which is the part of the computer 
+   that stores current data, programs, and instructions. Primary storage is stored in the 
+   motherboard which results in the data from and to primary storage can be read and written at 
+   a very good pace.
+
+What is Primary Memory
+Primary memory is a segment of computer memory that can be accessed directly by the processor. 
+In a hierarchy of memory, primary memory has access time less than secondary memory and greater 
+than cache memory. Generally, primary memory has a storage capacity lesser than secondary memory 
+and greater than cache memory.
+
+Need of primary memory
+In order to enhance the efficiency of the system, memory is organized in such a way that access 
+time for the ready process is minimized. The following approach is followed to minimize access 
+time for the ready process.
+
+All programs, files, and data are stored in secondary storage that is larger and hence has 
+greater access time.
+Secondary memory can not be accessed directly by a CPU or processor.
+In order, to execute any process operating system loads the process in primary memory which is 
+smaller and can be accessed directly by the CPU.
+Since only those processes are loaded in primary memory which is ready to be executed, the CPU 
+can access those processes efficiently and this optimizes the performance of the system.
+
+Primary Memory Example
+    Primary Memory examples are RAM, ROM, cache, PROM, EPROM, registers, etc.
+
+Classification of Primary Memory
+    Primary memory can be broadly classified into two parts:
+
+Read-Only Memory (ROM)
+Random Access Memory (RAM)
+
+Read-Only Memory
+Any data which need not be altered are stored in ROM. ROM includes those programs which run on 
+booting of the system (known as a bootstrap program that initializes OS) along with data like 
+algorithm required by OS. Anything stored in ROM cannot be altered or changed.
+
+Types of ROM:
+ROM can be broadly classified into 4 types based on their behavior:
+
+MROM: Masked ROM is hardwired and pre-programmed ROM. Any content that is once written cannot 
+be altered anyhow.
+
+PROM: Programmable ROM can be modified once by the user. The user buys a blank PROM and writes 
+the desired content but once written content cannot be altered.
+
+EPROM: Erasable and Programmable ROM Content can be changed by erasing the initial content which
+can be done by exposing EPROM to UV radiation. This exposure to ultra-violet light dissipates
+the charge on ROM and content can be rewritten on it.
+
+EEPROM: Electrically Erasable and Programmable ROM Content can be changed by erasing the initial
+content which could be easily erased electrically. However, one byte can be erased at a time 
+instead of deleting in one go. Hence, reprogramming of EEPROM is a slow process.
+
+Random Access Memory
+Any process in the system which needs to be executed is loaded in RAM which is processed by the 
+CPU as per Instructions in the program. Like if we click on applications like Browser, firstly 
+browser code will be loaded by the Operating system into the RAM after which the CPU will 
+execute and open up the Browser.
+
+Types of RAM:
+RAM can be broadly classified into SRAM (Static RAM) and DRAM (Dynamic RAM) based on their 
+behavior:
+
+DRAM: Dynamic RAM or DRAM needs to periodically refresh in a few milliseconds to retain data. 
+DRAM is made up of capacitors and transistors and electric charge leaks from capacitors and DRAM 
+needs to be charged periodically. DRAM is widely used in home PCs and servers as it is cheaper
+than SRAM.
+
+SRAM: Static RAM or SRAM keeps the data as long as power is supplied to the system. 
+SRAM uses Sequential circuits like a flip-flop to store a bit and hence need not be periodically
+refreshed. SRAM is expensive and hence only used where speed is the utmost priority.
+
+Primary Memory is volatile in nature.
+
+Content of primary memory may or may not vanish when power is lost depending on if it is 
+stored in RAM or ROM. 
+
+The content of ROM is non-volatile in nature, they are stored even when power is lost.
+The content of RAM is volatile in nature, it vanishes when power is lost.
+
+When cache memory comes into existence?
+Data in primary memory can be accessed faster than secondary memory but still, access times of 
+primary memory are generally in a few microseconds, whereas the CPU is capable of performing 
+operations in nanoseconds. Due to the time lag between accessing data and acting on data 
+performance of the system decreases as the CPU is not utilized properly, it may remain idle for 
+some time. In order to minimize this time gap new segment of memory is Introduced known as 
+Cache Memory.
+
+
+Secondary storage, also known as auxiliary storage or secondary memory, is a non-volatile memory 
+medium that stores data that is not frequently accessed. It's a backup solution that can be used
+to store data that needs to be more reliable or have enough backup capacity than primary storage
+devices like internal hard drives and flash drives. Secondary storage devices are characterized
+by high capacity and low cost, but other factors like speed, reliability, and portability may 
+also be important.
+
+
+Here are some examples of secondary storage devices:
+Hard disk
+Also known as fixed storage or fixed disc drives, hard disks are internal media devices that 
+store data in a computer system.
+
+Cloud storage
+Can be used for archiving data, which can be more economical than storing data locally on a server.
+
+Optical memory
+A relatively new secondary storage medium that can store large amounts of data in limited space.
+
+Floppy disk
+A type of disk storage made of a thin and flexible magnetic storage medium that's used for backup 
+purposes.
+
+Other factors to consider with secondary storage include longevity and long-term accessibility. 
+For example, data stored on magnetic tapes from previous decades may be practically unusable today.
+
+Secondary storage, sometimes called auxiliary storage, is non-volatile and is used to store data 
+and programs for later retrieval. There are many kinds of secondary storage, each with advantages
+and disadvantages. Most storage devices use either magnetic or optical storage media
 
 
 
