@@ -13,9 +13,15 @@
           DAS (direct attached storage)
            ->    any storage device that is directly connects to the "system" can be called as DAS.
                  DAS is a digital storage  system, that connects directly to a personal computer , workstation or server.
+                 The storage device which is permanently attached to a desktop computer. DAS is for a single user 
+                   (Hard drive attached to a computer). DAS is well suited for a small-to-medium sized business where sufficient amounts of 
+                    storage can be configured at a low startup cost.
 
+                  1. Storage devices
+                  2. Cables
+                  3. Disk Array
+                  4. Protocol
+                  5. Storage protocols: ATA, SCSI, SAS, SASA, FC 
 
-
-
-
-
+                    internal hard drive
+                    external USB 
