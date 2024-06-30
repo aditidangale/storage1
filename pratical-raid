@@ -94,6 +94,9 @@ mkfs.ext4 /dev/mapper/HPCSA-hpcsa_lab
 mkdir lab
 mount /dev/mapper/HPCSA-hpcsa_lab lab
 
+
+
+====================================================================================
 lvextend -L +2G /dev/mapper/HPCSA-hpcsa_lab
 
 resize2fs /dev/mapper/HPCSA-hpcsa_lab
